@@ -25,3 +25,4 @@ x
 end
 
 array = [1,2,3]
+puts find_min_value(array)
