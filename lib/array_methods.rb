@@ -7,7 +7,7 @@ end
 
 
 array = [1,2,3,4]
-value_to_find = 0rub
+value_to_find = 4
 
 puts find_element_index(array,value_to_find)
 
