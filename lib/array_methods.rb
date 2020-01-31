@@ -1,10 +1,10 @@
 def find_element_index(array, value_to_find)
   array.index { |index|
-    puts array[value_to_find]
+    puts arrayvalue_to_find]
   }
 end
 
-array = [1,2]
+array = [1,2,3,4]
 value_to_find = 1
 puts find_element_index(array,value_to_find)
 
