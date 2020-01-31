@@ -1,6 +1,11 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  array.index { |index|
+    puts array[value_to_find]
+  }
 end
+
+array = [1,2,3,4,5]
+value_to_find = 0
 
 def find_max_value(array)
   # Add your solution here
