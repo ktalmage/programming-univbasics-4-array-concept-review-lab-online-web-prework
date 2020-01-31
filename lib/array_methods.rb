@@ -6,8 +6,8 @@ def find_element_index(array, value_to_find)
 end
 
 
-array = [1,2,3,4,5]
-value_to_find = 0
+array = [1,2,3,4]
+value_to_find = 0rub
 
 puts find_element_index(array,value_to_find)
 
